@@ -1,0 +1,77 @@
+*{
+  padding: 0; 
+  margin: 0;
+  font-family: Patrick Hand;
+}
+
+body {
+  background: url('../images/pearl.png');
+  background-size: cover;
+}
+
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+
+.container span{
+  display: block;
+}
+
+.container h3 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 25px;
+  text-shadow: 2px 2px #18484a;
+  animation: fadeIn 3s 1;
+}
+
+.container h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 4px;
+  margin-left: 0px;
+  text-shadow: 2px 2px #18484a;
+  animation: fadeIn 3s 1;
+}
+
+.click{
+  text-align: center;
+  position: absolute;
+  margin-top: 32.5%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px #18484a;
+}
+
+.button {
+  color: white;
+  border-style: none;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 30px;
+  position: relative;
+  background: none;
+  animation: fadeIn 5s 1;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
